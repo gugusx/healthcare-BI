@@ -1,0 +1,207 @@
+[2025-04-19T23:47:38.582+0000] {processor.py:161} INFO - Started process (PID=681) to work on /opt/airflow/dags/main_etl.py
+[2025-04-19T23:47:38.583+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main_etl.py for tasks to queue
+[2025-04-19T23:47:38.584+0000] {logging_mixin.py:188} INFO - [2025-04-19T23:47:38.584+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/main_etl.py
+[2025-04-19T23:47:38.592+0000] {logging_mixin.py:188} INFO - [2025-04-19T23:47:38.591+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/main_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/main_etl.py", line 12, in <module>
+    from etl_to_dwh import run_etl_to_dwh
+ModuleNotFoundError: No module named 'etl_to_dwh'
+[2025-04-19T23:47:38.592+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/main_etl.py
+[2025-04-19T23:47:38.616+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main_etl.py took 0.038 seconds
+[2025-04-19T23:48:08.811+0000] {processor.py:161} INFO - Started process (PID=692) to work on /opt/airflow/dags/main_etl.py
+[2025-04-19T23:48:08.814+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main_etl.py for tasks to queue
+[2025-04-19T23:48:08.816+0000] {logging_mixin.py:188} INFO - [2025-04-19T23:48:08.815+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/main_etl.py
+[2025-04-19T23:48:08.821+0000] {logging_mixin.py:188} INFO - [2025-04-19T23:48:08.820+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/main_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/main_etl.py", line 12, in <module>
+    from etl_to_dwh import run_etl_to_dwh
+ModuleNotFoundError: No module named 'etl_to_dwh'
+[2025-04-19T23:48:08.821+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/main_etl.py
+[2025-04-19T23:48:08.850+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main_etl.py took 0.043 seconds
+[2025-04-19T23:48:39.034+0000] {processor.py:161} INFO - Started process (PID=703) to work on /opt/airflow/dags/main_etl.py
+[2025-04-19T23:48:39.037+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main_etl.py for tasks to queue
+[2025-04-19T23:48:39.039+0000] {logging_mixin.py:188} INFO - [2025-04-19T23:48:39.038+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/main_etl.py
+[2025-04-19T23:48:39.043+0000] {logging_mixin.py:188} INFO - [2025-04-19T23:48:39.042+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/main_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/main_etl.py", line 12, in <module>
+    from etl_to_dwh import run_etl_to_dwh
+ModuleNotFoundError: No module named 'etl_to_dwh'
+[2025-04-19T23:48:39.043+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/main_etl.py
+[2025-04-19T23:48:39.071+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main_etl.py took 0.042 seconds
+[2025-04-19T23:49:52.809+0000] {processor.py:161} INFO - Started process (PID=171) to work on /opt/airflow/dags/main_etl.py
+[2025-04-19T23:49:52.815+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main_etl.py for tasks to queue
+[2025-04-19T23:49:52.819+0000] {logging_mixin.py:188} INFO - [2025-04-19T23:49:52.818+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/main_etl.py
+[2025-04-19T23:49:52.835+0000] {logging_mixin.py:188} INFO - [2025-04-19T23:49:52.834+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/main_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/main_etl.py", line 12, in <module>
+    from etl_to_dwh import run_etl_to_dwh
+ModuleNotFoundError: No module named 'etl_to_dwh'
+[2025-04-19T23:49:52.839+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/main_etl.py
+[2025-04-19T23:49:52.899+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main_etl.py took 0.096 seconds
+[2025-04-19T23:50:23.070+0000] {processor.py:161} INFO - Started process (PID=177) to work on /opt/airflow/dags/main_etl.py
+[2025-04-19T23:50:23.075+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main_etl.py for tasks to queue
+[2025-04-19T23:50:23.077+0000] {logging_mixin.py:188} INFO - [2025-04-19T23:50:23.076+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/main_etl.py
+[2025-04-19T23:50:23.081+0000] {logging_mixin.py:188} INFO - [2025-04-19T23:50:23.080+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/main_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/main_etl.py", line 12, in <module>
+    from etl_to_dwh import run_etl_to_dwh
+ModuleNotFoundError: No module named 'etl_to_dwh'
+[2025-04-19T23:50:23.082+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/main_etl.py
+[2025-04-19T23:50:23.109+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main_etl.py took 0.043 seconds
+[2025-04-19T23:50:53.291+0000] {processor.py:161} INFO - Started process (PID=182) to work on /opt/airflow/dags/main_etl.py
+[2025-04-19T23:50:53.294+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main_etl.py for tasks to queue
+[2025-04-19T23:50:53.296+0000] {logging_mixin.py:188} INFO - [2025-04-19T23:50:53.295+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/main_etl.py
+[2025-04-19T23:50:53.303+0000] {logging_mixin.py:188} INFO - [2025-04-19T23:50:53.302+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/main_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/main_etl.py", line 12, in <module>
+    from etl_to_dwh import run_etl_to_dwh
+ModuleNotFoundError: No module named 'etl_to_dwh'
+[2025-04-19T23:50:53.303+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/main_etl.py
+[2025-04-19T23:50:53.331+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main_etl.py took 0.044 seconds
+[2025-04-19T23:51:16.487+0000] {processor.py:161} INFO - Started process (PID=187) to work on /opt/airflow/dags/main_etl.py
+[2025-04-19T23:51:16.490+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main_etl.py for tasks to queue
+[2025-04-19T23:51:16.491+0000] {logging_mixin.py:188} INFO - [2025-04-19T23:51:16.491+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/main_etl.py
+[2025-04-19T23:51:18.523+0000] {processor.py:840} INFO - DAG(s) 'etl_stg_to_dwh_to_mart' retrieved from /opt/airflow/dags/main_etl.py
+[2025-04-19T23:51:18.723+0000] {logging_mixin.py:188} INFO - [2025-04-19T23:51:18.722+0000] {override.py:1769} INFO - Created Permission View: can edit on DAG:etl_stg_to_dwh_to_mart
+[2025-04-19T23:51:18.743+0000] {logging_mixin.py:188} INFO - [2025-04-19T23:51:18.743+0000] {override.py:1769} INFO - Created Permission View: can delete on DAG:etl_stg_to_dwh_to_mart
+[2025-04-19T23:51:18.759+0000] {logging_mixin.py:188} INFO - [2025-04-19T23:51:18.759+0000] {override.py:1769} INFO - Created Permission View: can read on DAG:etl_stg_to_dwh_to_mart
+[2025-04-19T23:51:18.760+0000] {logging_mixin.py:188} INFO - [2025-04-19T23:51:18.760+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-04-19T23:51:18.774+0000] {logging_mixin.py:188} INFO - [2025-04-19T23:51:18.774+0000] {dag.py:3069} INFO - Creating ORM DAG for etl_stg_to_dwh_to_mart
+[2025-04-19T23:51:18.789+0000] {logging_mixin.py:188} INFO - [2025-04-19T23:51:18.789+0000] {dag.py:3834} INFO - Setting next_dagrun for etl_stg_to_dwh_to_mart to 2025-04-19 03:30:00+00:00, run_after=2025-04-20 03:30:00+00:00
+[2025-04-19T23:51:18.821+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main_etl.py took 2.338 seconds
+[2025-04-19T23:51:49.026+0000] {processor.py:161} INFO - Started process (PID=196) to work on /opt/airflow/dags/main_etl.py
+[2025-04-19T23:51:49.030+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main_etl.py for tasks to queue
+[2025-04-19T23:51:49.032+0000] {logging_mixin.py:188} INFO - [2025-04-19T23:51:49.031+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/main_etl.py
+[2025-04-19T23:51:49.680+0000] {processor.py:840} INFO - DAG(s) 'etl_stg_to_dwh_to_mart' retrieved from /opt/airflow/dags/main_etl.py
+[2025-04-19T23:51:49.727+0000] {logging_mixin.py:188} INFO - [2025-04-19T23:51:49.726+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-04-19T23:51:49.766+0000] {logging_mixin.py:188} INFO - [2025-04-19T23:51:49.766+0000] {dag.py:3834} INFO - Setting next_dagrun for etl_stg_to_dwh_to_mart to 2025-04-19 03:30:00+00:00, run_after=2025-04-20 03:30:00+00:00
+[2025-04-19T23:51:49.806+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main_etl.py took 0.784 seconds
+[2025-04-19T23:52:19.911+0000] {processor.py:161} INFO - Started process (PID=202) to work on /opt/airflow/dags/main_etl.py
+[2025-04-19T23:52:19.914+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main_etl.py for tasks to queue
+[2025-04-19T23:52:19.916+0000] {logging_mixin.py:188} INFO - [2025-04-19T23:52:19.915+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/main_etl.py
+[2025-04-19T23:52:20.280+0000] {processor.py:840} INFO - DAG(s) 'etl_stg_to_dwh_to_mart' retrieved from /opt/airflow/dags/main_etl.py
+[2025-04-19T23:52:20.309+0000] {logging_mixin.py:188} INFO - [2025-04-19T23:52:20.309+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-04-19T23:52:20.339+0000] {logging_mixin.py:188} INFO - [2025-04-19T23:52:20.339+0000] {dag.py:3834} INFO - Setting next_dagrun for etl_stg_to_dwh_to_mart to 2025-04-19 03:30:00+00:00, run_after=2025-04-20 03:30:00+00:00
+[2025-04-19T23:52:20.369+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main_etl.py took 0.462 seconds
+[2025-04-19T23:52:50.597+0000] {processor.py:161} INFO - Started process (PID=208) to work on /opt/airflow/dags/main_etl.py
+[2025-04-19T23:52:50.600+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main_etl.py for tasks to queue
+[2025-04-19T23:52:50.602+0000] {logging_mixin.py:188} INFO - [2025-04-19T23:52:50.601+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/main_etl.py
+[2025-04-19T23:52:50.954+0000] {processor.py:840} INFO - DAG(s) 'etl_stg_to_dwh_to_mart' retrieved from /opt/airflow/dags/main_etl.py
+[2025-04-19T23:52:50.986+0000] {logging_mixin.py:188} INFO - [2025-04-19T23:52:50.985+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-04-19T23:52:51.014+0000] {logging_mixin.py:188} INFO - [2025-04-19T23:52:51.013+0000] {dag.py:3834} INFO - Setting next_dagrun for etl_stg_to_dwh_to_mart to 2025-04-19 03:30:00+00:00, run_after=2025-04-20 03:30:00+00:00
+[2025-04-19T23:52:51.041+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main_etl.py took 0.449 seconds
+[2025-04-19T23:53:21.282+0000] {processor.py:161} INFO - Started process (PID=214) to work on /opt/airflow/dags/main_etl.py
+[2025-04-19T23:53:21.285+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main_etl.py for tasks to queue
+[2025-04-19T23:53:21.286+0000] {logging_mixin.py:188} INFO - [2025-04-19T23:53:21.286+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/main_etl.py
+[2025-04-19T23:53:21.681+0000] {processor.py:840} INFO - DAG(s) 'etl_stg_to_dwh_to_mart' retrieved from /opt/airflow/dags/main_etl.py
+[2025-04-19T23:53:21.715+0000] {logging_mixin.py:188} INFO - [2025-04-19T23:53:21.714+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-04-19T23:53:21.742+0000] {logging_mixin.py:188} INFO - [2025-04-19T23:53:21.742+0000] {dag.py:3834} INFO - Setting next_dagrun for etl_stg_to_dwh_to_mart to 2025-04-19 03:30:00+00:00, run_after=2025-04-20 03:30:00+00:00
+[2025-04-19T23:53:21.768+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main_etl.py took 0.490 seconds
+[2025-04-19T23:53:52.007+0000] {processor.py:161} INFO - Started process (PID=220) to work on /opt/airflow/dags/main_etl.py
+[2025-04-19T23:53:52.011+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main_etl.py for tasks to queue
+[2025-04-19T23:53:52.012+0000] {logging_mixin.py:188} INFO - [2025-04-19T23:53:52.011+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/main_etl.py
+[2025-04-19T23:53:52.357+0000] {processor.py:840} INFO - DAG(s) 'etl_stg_to_dwh_to_mart' retrieved from /opt/airflow/dags/main_etl.py
+[2025-04-19T23:53:52.385+0000] {logging_mixin.py:188} INFO - [2025-04-19T23:53:52.385+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-04-19T23:53:52.412+0000] {logging_mixin.py:188} INFO - [2025-04-19T23:53:52.412+0000] {dag.py:3834} INFO - Setting next_dagrun for etl_stg_to_dwh_to_mart to 2025-04-19 03:30:00+00:00, run_after=2025-04-20 03:30:00+00:00
+[2025-04-19T23:53:52.440+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main_etl.py took 0.438 seconds
+[2025-04-19T23:54:22.648+0000] {processor.py:161} INFO - Started process (PID=226) to work on /opt/airflow/dags/main_etl.py
+[2025-04-19T23:54:22.651+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main_etl.py for tasks to queue
+[2025-04-19T23:54:22.652+0000] {logging_mixin.py:188} INFO - [2025-04-19T23:54:22.652+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/main_etl.py
+[2025-04-19T23:54:23.002+0000] {processor.py:840} INFO - DAG(s) 'etl_stg_to_dwh_to_mart' retrieved from /opt/airflow/dags/main_etl.py
+[2025-04-19T23:54:23.029+0000] {logging_mixin.py:188} INFO - [2025-04-19T23:54:23.029+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-04-19T23:54:23.056+0000] {logging_mixin.py:188} INFO - [2025-04-19T23:54:23.055+0000] {dag.py:3834} INFO - Setting next_dagrun for etl_stg_to_dwh_to_mart to 2025-04-19 03:30:00+00:00, run_after=2025-04-20 03:30:00+00:00
+[2025-04-19T23:54:23.084+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main_etl.py took 0.439 seconds
+[2025-04-19T23:54:53.340+0000] {processor.py:161} INFO - Started process (PID=232) to work on /opt/airflow/dags/main_etl.py
+[2025-04-19T23:54:53.341+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main_etl.py for tasks to queue
+[2025-04-19T23:54:53.342+0000] {logging_mixin.py:188} INFO - [2025-04-19T23:54:53.341+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/main_etl.py
+[2025-04-19T23:54:53.686+0000] {processor.py:840} INFO - DAG(s) 'etl_stg_to_dwh_to_mart' retrieved from /opt/airflow/dags/main_etl.py
+[2025-04-19T23:54:53.717+0000] {logging_mixin.py:188} INFO - [2025-04-19T23:54:53.717+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-04-19T23:54:53.762+0000] {logging_mixin.py:188} INFO - [2025-04-19T23:54:53.762+0000] {dag.py:3834} INFO - Setting next_dagrun for etl_stg_to_dwh_to_mart to 2025-04-19 03:30:00+00:00, run_after=2025-04-20 03:30:00+00:00
+[2025-04-19T23:54:53.804+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main_etl.py took 0.468 seconds
+[2025-04-19T23:55:24.048+0000] {processor.py:161} INFO - Started process (PID=241) to work on /opt/airflow/dags/main_etl.py
+[2025-04-19T23:55:24.051+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main_etl.py for tasks to queue
+[2025-04-19T23:55:24.052+0000] {logging_mixin.py:188} INFO - [2025-04-19T23:55:24.052+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/main_etl.py
+[2025-04-19T23:55:24.566+0000] {processor.py:840} INFO - DAG(s) 'etl_stg_to_dwh_to_mart' retrieved from /opt/airflow/dags/main_etl.py
+[2025-04-19T23:55:24.609+0000] {logging_mixin.py:188} INFO - [2025-04-19T23:55:24.608+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-04-19T23:55:24.647+0000] {logging_mixin.py:188} INFO - [2025-04-19T23:55:24.646+0000] {dag.py:3834} INFO - Setting next_dagrun for etl_stg_to_dwh_to_mart to 2025-04-19 03:30:00+00:00, run_after=2025-04-20 03:30:00+00:00
+[2025-04-19T23:55:24.681+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main_etl.py took 0.638 seconds
+[2025-04-19T23:55:54.735+0000] {processor.py:161} INFO - Started process (PID=250) to work on /opt/airflow/dags/main_etl.py
+[2025-04-19T23:55:54.736+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main_etl.py for tasks to queue
+[2025-04-19T23:55:54.739+0000] {logging_mixin.py:188} INFO - [2025-04-19T23:55:54.737+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/main_etl.py
+[2025-04-19T23:55:55.135+0000] {processor.py:840} INFO - DAG(s) 'etl_stg_to_dwh_to_mart' retrieved from /opt/airflow/dags/main_etl.py
+[2025-04-19T23:55:55.169+0000] {logging_mixin.py:188} INFO - [2025-04-19T23:55:55.168+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-04-19T23:55:55.201+0000] {logging_mixin.py:188} INFO - [2025-04-19T23:55:55.200+0000] {dag.py:3834} INFO - Setting next_dagrun for etl_stg_to_dwh_to_mart to 2025-04-19 03:30:00+00:00, run_after=2025-04-20 03:30:00+00:00
+[2025-04-19T23:55:55.231+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main_etl.py took 0.500 seconds
+[2025-04-19T23:56:25.449+0000] {processor.py:161} INFO - Started process (PID=256) to work on /opt/airflow/dags/main_etl.py
+[2025-04-19T23:56:25.452+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main_etl.py for tasks to queue
+[2025-04-19T23:56:25.453+0000] {logging_mixin.py:188} INFO - [2025-04-19T23:56:25.452+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/main_etl.py
+[2025-04-19T23:56:25.976+0000] {processor.py:840} INFO - DAG(s) 'etl_stg_to_dwh_to_mart' retrieved from /opt/airflow/dags/main_etl.py
+[2025-04-19T23:56:26.006+0000] {logging_mixin.py:188} INFO - [2025-04-19T23:56:26.005+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-04-19T23:56:26.034+0000] {logging_mixin.py:188} INFO - [2025-04-19T23:56:26.033+0000] {dag.py:3834} INFO - Setting next_dagrun for etl_stg_to_dwh_to_mart to 2025-04-19 03:30:00+00:00, run_after=2025-04-20 03:30:00+00:00
+[2025-04-19T23:56:26.065+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main_etl.py took 0.620 seconds
+[2025-04-19T23:56:56.318+0000] {processor.py:161} INFO - Started process (PID=262) to work on /opt/airflow/dags/main_etl.py
+[2025-04-19T23:56:56.319+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main_etl.py for tasks to queue
+[2025-04-19T23:56:56.320+0000] {logging_mixin.py:188} INFO - [2025-04-19T23:56:56.319+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/main_etl.py
+[2025-04-19T23:56:56.779+0000] {processor.py:840} INFO - DAG(s) 'etl_stg_to_dwh_to_mart' retrieved from /opt/airflow/dags/main_etl.py
+[2025-04-19T23:56:56.819+0000] {logging_mixin.py:188} INFO - [2025-04-19T23:56:56.818+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-04-19T23:56:56.852+0000] {logging_mixin.py:188} INFO - [2025-04-19T23:56:56.851+0000] {dag.py:3834} INFO - Setting next_dagrun for etl_stg_to_dwh_to_mart to 2025-04-19 03:30:00+00:00, run_after=2025-04-20 03:30:00+00:00
+[2025-04-19T23:56:56.887+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main_etl.py took 0.573 seconds
+[2025-04-19T23:57:27.132+0000] {processor.py:161} INFO - Started process (PID=268) to work on /opt/airflow/dags/main_etl.py
+[2025-04-19T23:57:27.135+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main_etl.py for tasks to queue
+[2025-04-19T23:57:27.136+0000] {logging_mixin.py:188} INFO - [2025-04-19T23:57:27.136+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/main_etl.py
+[2025-04-19T23:57:27.579+0000] {processor.py:840} INFO - DAG(s) 'etl_stg_to_dwh_to_mart' retrieved from /opt/airflow/dags/main_etl.py
+[2025-04-19T23:57:27.624+0000] {logging_mixin.py:188} INFO - [2025-04-19T23:57:27.623+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-04-19T23:57:27.672+0000] {logging_mixin.py:188} INFO - [2025-04-19T23:57:27.671+0000] {dag.py:3834} INFO - Setting next_dagrun for etl_stg_to_dwh_to_mart to 2025-04-19 03:30:00+00:00, run_after=2025-04-20 03:30:00+00:00
+[2025-04-19T23:57:27.711+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main_etl.py took 0.583 seconds
+[2025-04-19T23:57:57.924+0000] {processor.py:161} INFO - Started process (PID=274) to work on /opt/airflow/dags/main_etl.py
+[2025-04-19T23:57:57.925+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main_etl.py for tasks to queue
+[2025-04-19T23:57:57.926+0000] {logging_mixin.py:188} INFO - [2025-04-19T23:57:57.926+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/main_etl.py
+[2025-04-19T23:57:58.271+0000] {processor.py:840} INFO - DAG(s) 'etl_stg_to_dwh_to_mart' retrieved from /opt/airflow/dags/main_etl.py
+[2025-04-19T23:57:58.298+0000] {logging_mixin.py:188} INFO - [2025-04-19T23:57:58.297+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-04-19T23:57:58.325+0000] {logging_mixin.py:188} INFO - [2025-04-19T23:57:58.325+0000] {dag.py:3834} INFO - Setting next_dagrun for etl_stg_to_dwh_to_mart to 2025-04-19 03:30:00+00:00, run_after=2025-04-20 03:30:00+00:00
+[2025-04-19T23:57:58.352+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main_etl.py took 0.432 seconds
+[2025-04-19T23:58:28.589+0000] {processor.py:161} INFO - Started process (PID=280) to work on /opt/airflow/dags/main_etl.py
+[2025-04-19T23:58:28.592+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main_etl.py for tasks to queue
+[2025-04-19T23:58:28.593+0000] {logging_mixin.py:188} INFO - [2025-04-19T23:58:28.593+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/main_etl.py
+[2025-04-19T23:58:28.956+0000] {processor.py:840} INFO - DAG(s) 'etl_stg_to_dwh_to_mart' retrieved from /opt/airflow/dags/main_etl.py
+[2025-04-19T23:58:28.986+0000] {logging_mixin.py:188} INFO - [2025-04-19T23:58:28.986+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-04-19T23:58:29.013+0000] {logging_mixin.py:188} INFO - [2025-04-19T23:58:29.013+0000] {dag.py:3834} INFO - Setting next_dagrun for etl_stg_to_dwh_to_mart to 2025-04-19 03:30:00+00:00, run_after=2025-04-20 03:30:00+00:00
+[2025-04-19T23:58:29.041+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main_etl.py took 0.457 seconds
+[2025-04-19T23:58:59.279+0000] {processor.py:161} INFO - Started process (PID=295) to work on /opt/airflow/dags/main_etl.py
+[2025-04-19T23:58:59.280+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main_etl.py for tasks to queue
+[2025-04-19T23:58:59.282+0000] {logging_mixin.py:188} INFO - [2025-04-19T23:58:59.281+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/main_etl.py
+[2025-04-19T23:58:59.663+0000] {processor.py:840} INFO - DAG(s) 'etl_stg_to_dwh_to_mart' retrieved from /opt/airflow/dags/main_etl.py
+[2025-04-19T23:58:59.699+0000] {logging_mixin.py:188} INFO - [2025-04-19T23:58:59.698+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-04-19T23:58:59.728+0000] {logging_mixin.py:188} INFO - [2025-04-19T23:58:59.727+0000] {dag.py:3834} INFO - Setting next_dagrun for etl_stg_to_dwh_to_mart to 2025-04-19 03:30:00+00:00, run_after=2025-04-20 03:30:00+00:00
+[2025-04-19T23:58:59.761+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main_etl.py took 0.487 seconds
+[2025-04-19T23:59:29.992+0000] {processor.py:161} INFO - Started process (PID=303) to work on /opt/airflow/dags/main_etl.py
+[2025-04-19T23:59:29.995+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main_etl.py for tasks to queue
+[2025-04-19T23:59:29.996+0000] {logging_mixin.py:188} INFO - [2025-04-19T23:59:29.996+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/main_etl.py
+[2025-04-19T23:59:30.342+0000] {processor.py:840} INFO - DAG(s) 'etl_stg_to_dwh_to_mart' retrieved from /opt/airflow/dags/main_etl.py
+[2025-04-19T23:59:30.368+0000] {logging_mixin.py:188} INFO - [2025-04-19T23:59:30.368+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-04-19T23:59:30.394+0000] {logging_mixin.py:188} INFO - [2025-04-19T23:59:30.393+0000] {dag.py:3834} INFO - Setting next_dagrun for etl_stg_to_dwh_to_mart to 2025-04-19 03:30:00+00:00, run_after=2025-04-20 03:30:00+00:00
+[2025-04-19T23:59:30.419+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main_etl.py took 0.431 seconds

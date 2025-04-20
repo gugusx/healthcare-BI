@@ -1,0 +1,29 @@
+[2025-04-20T06:35:56.961+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: etl_stg_to_dwh_to_mart.run_training_etl_function manual__2025-04-20T06:35:35.381596+00:00 [queued]>
+[2025-04-20T06:35:56.974+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: etl_stg_to_dwh_to_mart.run_training_etl_function manual__2025-04-20T06:35:35.381596+00:00 [queued]>
+[2025-04-20T06:35:56.976+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 1
+[2025-04-20T06:35:57.007+0000] {taskinstance.py:2217} INFO - Executing <Task(PythonOperator): run_training_etl_function> on 2025-04-20 06:35:35.381596+00:00
+[2025-04-20T06:35:57.018+0000] {standard_task_runner.py:60} INFO - Started process 251 to run task
+[2025-04-20T06:35:57.021+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'etl_stg_to_dwh_to_mart', 'run_training_etl_function', 'manual__2025-04-20T06:35:35.381596+00:00', '--job-id', '8', '--raw', '--subdir', 'DAGS_FOLDER/main_etl.py', '--cfg-path', '/tmp/tmpkjn4dfsx']
+[2025-04-20T06:35:57.025+0000] {standard_task_runner.py:88} INFO - Job 8: Subtask run_training_etl_function
+[2025-04-20T06:35:57.095+0000] {task_command.py:423} INFO - Running <TaskInstance: etl_stg_to_dwh_to_mart.run_training_etl_function manual__2025-04-20T06:35:35.381596+00:00 [running]> on host d53bd6ff311d
+[2025-04-20T06:35:57.218+0000] {taskinstance.py:2513} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='etl_stg_to_dwh_to_mart' AIRFLOW_CTX_TASK_ID='run_training_etl_function' AIRFLOW_CTX_EXECUTION_DATE='2025-04-20T06:35:35.381596+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-04-20T06:35:35.381596+00:00'
+[2025-04-20T06:35:57.247+0000] {mart_report.py:55} INFO - Creating materialized view: mart.mv_most_diagnose
+[2025-04-20T06:35:57.260+0000] {taskinstance.py:2731} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 444, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 414, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 200, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 217, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/script_etl/mart_report.py", line 72, in run_mart_report
+    check_and_create_or_refresh_mv(engine, mv_name, sql_query, schema="mart")
+  File "/opt/airflow/script_etl/mart_report.py", line 57, in check_and_create_or_refresh_mv
+    conn.commit()
+AttributeError: 'Connection' object has no attribute 'commit'
+[2025-04-20T06:35:57.270+0000] {taskinstance.py:1149} INFO - Marking task as FAILED. dag_id=etl_stg_to_dwh_to_mart, task_id=run_training_etl_function, execution_date=20250420T063535, start_date=20250420T063556, end_date=20250420T063557
+[2025-04-20T06:35:57.292+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 8 for task run_training_etl_function ('Connection' object has no attribute 'commit'; 251)
+[2025-04-20T06:35:57.315+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2025-04-20T06:35:57.350+0000] {taskinstance.py:3312} INFO - 0 downstream tasks scheduled from follow-on schedule check

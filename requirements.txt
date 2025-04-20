@@ -1,0 +1,7 @@
+pymysql
+pymongo
+psycopg2-binary
+pandas
+gspread
+sqlalchemy
+oauth2client==4.1.3
