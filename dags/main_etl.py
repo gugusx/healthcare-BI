@@ -38,7 +38,7 @@ with DAG(
     )
 
     task_mart_report = PythonOperator(
-        task_id='run_training_etl_function',
+        task_id='task_mart_report',
         python_callable=run_mart_report,
     )
 
