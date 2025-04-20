@@ -47,7 +47,7 @@ def check_and_create_or_refresh_mv(engine, mv_name, mv_sql, schema="mart"):
                 logging.info(f"Materialized view: {full_mv_name} already exists")
                 # Refresh the materialized
                 try:
-                    conn.execute(text(f"REFRESH MATERIALIZED VIEW {schema}.{full_mv_name};"))
+                    conn.execute(text(f"REFRESH MATERIALIZED VIEW {full_mv_name};"))
                     logging.info(f"Successfully refreshed materialized view: {full_mv_name}")
                 except Exception as e:
                     logging.error(f"Error refreshing materialized view {full_mv_name}: {e}")
